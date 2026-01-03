@@ -30,7 +30,7 @@ export default function ContactForm() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    access_key: 'adede4c1-e970-4188-ad65-5f3387f889e3',
+                    access_key: 'd6f8f30e-51c7-4f9b-a51e-da4e5b2fa4e0',
                     ...formData,
                 }),
             });
@@ -78,27 +78,17 @@ export default function ContactForm() {
                             <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-3 items-center">
                                 <li className="flex items-center gap-x-3">
                                     <Image src="/assets/gmail-icon.svg" alt="Gmail" width={24} height={24} />
-                                    <p>parpyfacadesolutions@outlook.com</p>
+                                    <p>darwin@parpyfacade.com.au</p>
                                 </li>
 
                                 <li className="flex items-center gap-x-3">
                                     <Image src="/assets/phone-icon.svg" alt="Phone" width={24} height={24} />
-                                    <p>0413 308 711 or +61 413308711</p>
+                                    <p>0413 542 300 or 0413 308 711</p>
                                 </li>
 
                                 <li className="flex items-center gap-x-3">
                                     <Image src="/assets/location-icon.svg" alt="Location" width={24} height={24} />
-                                    <p>Fitzgibbon, Queensland 4018, Australia</p>
-                                </li>
-
-                                <li className="flex items-center gap-x-3">
-                                    <div className="flex-none text-gray-400 font-extrabold">ABN:</div>
-                                    <p>74677095395</p>
-                                </li>
-
-                                <li className="flex items-center gap-x-3">
-                                    <div className="flex-none text-gray-400 font-extrabold">ACN:</div>
-                                    <p>677095395</p>
+                                    <p>Darwin NT Aus 0800 in address </p>
                                 </li>
                             </ul>
                         </div>

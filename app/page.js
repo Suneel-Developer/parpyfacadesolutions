@@ -5,7 +5,6 @@ import Services from "@/components/Services";
 import ProjectManagement from "@/components/ProjectManagement";
 import Experts from "@/components/Experts";
 import SystemsTech from "@/components/SystemsTech";
-import MapSection from "@/components/MapSection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
@@ -20,7 +19,6 @@ export default function Home() {
         <ProjectManagement />
         <Experts />
         <SystemsTech />
-        <MapSection />
         <ContactForm />
       </main>
       <Footer />
